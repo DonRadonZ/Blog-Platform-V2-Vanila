@@ -1,2 +1,2 @@
-# Blog-Platform-V2-Vanila
-Blog-Platform-V2-Vanila
+# Blog-Platform
+This project about blog
