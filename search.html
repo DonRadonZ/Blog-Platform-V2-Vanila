@@ -23,42 +23,86 @@
             </div>
         </nav>
         
-       <h1>Blog</h1>
+       <div class="title">
+                <h2>Blog Part</h2>
+            </div>
        <section>
-        <h1>Popular Blog</h1>
-       </section>
-       <section>
-        <h1>All Blog</h1>
-        <input type="text" placeholder="Blog name...">
-        <input type="text">
         <div class="container">
             <div class="title">
-                <h2>Blog</h2>
+                <h2>Popular Blog</h2>
             </div>
+            
             <div class="blog-content">
                 <!-- start card part -->
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="image/blog-kyoto.jpg" alt="">
+                <div class="search-card">
+                    <div class="card-img-holder">
+                        <img src="" alt="Blog image">
                     </div>
-                    <div class="blog-text">
-                        <span>10 May, 2023</span>
-                        <span>Asia</span>
-                        <p>Lily Crossley-Baxter</p>
-                        <h2>WHAT TO SEE IN KYOTO: 10 Sight not to Miss for first visit</h2>
-                        <p>Let's see place that you need to go when you go to Kyoto Together</p>
-                        <a href="#">Read More</a>
+                    <h3 class="blog-title">Learn</h3>
+                    <span class="blog-time">20 Aug 2023</span>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate impedit exercitationem consequuntur temporibus atque excepturi voluptates? Ad reiciendis commodi aspernatur dolores blanditiis eligendi neque, officia rem libero. Ea, minima.</p>
+                    <div class="category">sport</div>
+                    <div class="options">
+                        <span>
+                            By John Doe
+                        </span>
+                        <button class="btn">Read More</button>
                     </div>
+                    
                 </div>
                 <!-- end card part -->
             </div>
         </div>
        </section>
        <section>
-        <h1>Total Blog</h1>
-        <h3>5</h3>
-        <h1>Total View</h1>
-        <H3>infinity</H3>
+        <div class="container">
+            <div class="title">
+                <h2>Popular Blog</h2>
+            </div>
+            <div class="title">
+                <div class="search">
+                <input type="text" class="search-term" placeholder="Blog name...">
+                </div>
+                <select class="custom-select">
+                    <option selected>Select your category...</option>
+                    <option>Sport</option>
+                    <option>Travel</option>
+                    <option>Guide</option>
+                </select>
+            </div>
+            <div class="blog-content">
+                <!-- start card part -->
+                <div class="search-card">
+                    <div class="card-img-holder">
+                        <img src="" alt="Blog image">
+                    </div>
+                    <h3 class="blog-title">Learn</h3>
+                    <span class="blog-time">20 Aug 2023</span>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate impedit exercitationem consequuntur temporibus atque excepturi voluptates? Ad reiciendis commodi aspernatur dolores blanditiis eligendi neque, officia rem libero. Ea, minima.</p>
+                    <div class="category">sport</div>
+                    <div class="options">
+                        <span>
+                            By John Doe
+                        </span>
+                        <button class="btn">Read More</button>
+                    </div>
+                </div>
+                <!-- end card part -->
+                
+            </div>
+        </div>
+       </section>
+       <section class="summary">
+        <div class="total-container">
+        <div class="total">
+            <h1>Total Blog</h1>
+            <h3>5</h3>
+        </div>
+        <div class="total">
+            <h1>Total View</h1>
+            <h3>99999</h3>
+        </div>
+        </div>
        </section>
        <footer>
     <div class="social">
@@ -69,5 +113,8 @@
     </div>
     <span>World Travel Blog</span>
 </footer>   
+
+<script src="blog.js"></script>
+<script src="statistics.js"></script>
 </body>
 </html>

@@ -11,13 +11,13 @@
         {
             "id": 2,
             "blogTitle": "",
-            "category": "travel",
+            "category": "sport",
             "content": "Lorem ipsum...",
             "author": "John Doe",
             "views": 800
         },
         {
-            "id": 1,
+            "id": 3,
             "blogTitle": "",
             "category": "travel",
             "content": "Lorem ipsum...",
@@ -25,7 +25,7 @@
             "views": 400
         },
         {
-            "id": 1,
+            "id": 4,
             "blogTitle": "",
             "category": "travel",
             "content": "Lorem ipsum...",
@@ -33,7 +33,7 @@
             "views": 500
         },
         {
-            "id": 1,
+            "id": 5,
             "blogTitle": "",
             "category": "travel",
             "content": "Lorem ipsum...",
@@ -41,15 +41,15 @@
             "views": 900
         },
         {
-            "id": 1,
+            "id": 6,
             "blogTitle": "",
-            "category": "travel",
+            "category": "sport",
             "content": "Lorem ipsum...",
             "author": "John Doe",
             "views": 350
         },
         {
-            "id": 1,
+            "id": 7,
             "blogTitle": "",
             "category": "travel",
             "content": "Lorem ipsum...",
@@ -57,15 +57,15 @@
             "views": 450
         },
         {
-            "id": 1,
+            "id": 8,
             "blogTitle": "",
-            "category": "travel",
+            "category": "guide",
             "content": "Lorem ipsum...",
             "author": "John Doe",
             "views": 600
         },
         {
-            "id": 1,
+            "id": 9,
             "blogTitle": "",
             "category": "travel",
             "content": "Lorem ipsum...",
@@ -73,9 +73,9 @@
             "views": 550
         },
         {
-            "id": 1,
+            "id": 10,
             "blogTitle": "",
-            "category":"travel",
+            "category":"guide",
             "content": "Lorem ipsum...",
             "author": "John Doe",
             "views": 850
