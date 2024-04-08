@@ -32,9 +32,9 @@
                 <h2>Popular Blog</h2>
             </div>
             
-            <div class="blog-content">
+            <div class="popular-blog-content">
                 <!-- start card part -->
-                <div class="search-card">
+                <!-- <div class="search-card">
                     <div class="card-img-holder">
                         <img src="" alt="Blog image">
                     </div>
@@ -49,7 +49,7 @@
                         <button class="btn">Read More</button>
                     </div>
                     
-                </div>
+                </div> -->
                 <!-- end card part -->
             </div>
         </div>
@@ -57,27 +57,28 @@
        <section>
         <div class="container">
             <div class="title">
-                <h2>Popular Blog</h2>
+                <h2>All Blogs</h2>
             </div>
             <div class="title">
-                <div class="search">
-                <input type="text" class="search-term" placeholder="Blog name...">
+                <div class="search" >
+                <input type="text" id="blog-search" class="search-term" placeholder="Blog name...">
                 </div>
-                <select class="custom-select">
+                <select class="custom-select" id="search">
                     <option selected>Select your category...</option>
                     <option>Sport</option>
                     <option>Travel</option>
                     <option>Guide</option>
                 </select>
             </div>
-            <div class="blog-content">
+            <div class="all-blog-content" id="all-blog-content">
                 <!-- start card part -->
-                <div class="search-card">
+                <!-- <div class="search-card">
                     <div class="card-img-holder">
                         <img src="" alt="Blog image">
                     </div>
                     <h3 class="blog-title">Learn</h3>
                     <span class="blog-time">20 Aug 2023</span>
+                    <span class="blog-view">(200 view)</span>
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate impedit exercitationem consequuntur temporibus atque excepturi voluptates? Ad reiciendis commodi aspernatur dolores blanditiis eligendi neque, officia rem libero. Ea, minima.</p>
                     <div class="category">sport</div>
                     <div class="options">
@@ -86,7 +87,7 @@
                         </span>
                         <button class="btn">Read More</button>
                     </div>
-                </div>
+                </div> -->
                 <!-- end card part -->
                 
             </div>
@@ -96,11 +97,11 @@
         <div class="total-container">
         <div class="total">
             <h1>Total Blog</h1>
-            <h3>5</h3>
+            <h3 id="total-blogs">5</h3>
         </div>
         <div class="total">
             <h1>Total View</h1>
-            <h3>99999</h3>
+            <h3 id="total-views"></h3>
         </div>
         </div>
        </section>
@@ -115,6 +116,7 @@
 </footer>   
 
 <script src="blog.js"></script>
+<script src="search.js"></script>
 <script src="statistics.js"></script>
 </body>
 </html>

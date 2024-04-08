@@ -1,84 +1,104 @@
 {
     "blogs": [
         {
-            "id": 1,
-            "blogTitle": "",
+            "id": 0,
+            "title": "Travel Guide for beginner",
             "category": "travel",
+            "date": "4/3/2024",
             "content": "Lorem ipsum...",
             "author": "John Doe",
-            "views": 1000
+            "views": 1000,
+            "popular": true
+        },
+        {
+            "id": 1,
+            "title": "Olympics attraction 2024",
+            "category": "sport",
+            "date": "1/1/2024",
+            "content": "Lorem ipsum...",
+            "author": "John Doe",
+            "views": 900,
+            "popular": true
         },
         {
             "id": 2,
-            "blogTitle": "",
-            "category": "sport",
+            "title": "40 Place You need to go when you go to paris",
+            "date": "12/12/2023",
+            "category": "travel",
             "content": "Lorem ipsum...",
             "author": "John Doe",
-            "views": 800
+            "views": 850,
+            "popular": true
         },
         {
             "id": 3,
-            "blogTitle": "",
-            "category": "travel",
-            "content": "Lorem ipsum...",
-            "author": "John Doe",
-            "views": 400
-        },
-        {
-            "id": 4,
-            "blogTitle": "",
-            "category": "travel",
-            "content": "Lorem ipsum...",
-            "author": "John Doe",
-            "views": 500
-        },
-        {
-            "id": 5,
-            "blogTitle": "",
-            "category": "travel",
-            "content": "Lorem ipsum...",
-            "author": "John Doe",
-            "views": 900
-        },
-        {
-            "id": 6,
-            "blogTitle": "",
-            "category": "sport",
-            "content": "Lorem ipsum...",
-            "author": "John Doe",
-            "views": 350
-        },
-        {
-            "id": 7,
-            "blogTitle": "",
-            "category": "travel",
-            "content": "Lorem ipsum...",
-            "author": "John Doe",
-            "views": 450
-        },
-        {
-            "id": 8,
-            "blogTitle": "",
+            "title": "Australia travel guide",
+            "date": "11/11/2023",
             "category": "guide",
             "content": "Lorem ipsum...",
             "author": "John Doe",
-            "views": 600
+            "views": 800,
+            "popular": true
         },
         {
-            "id": 9,
-            "blogTitle": "",
+            "id": 4,
+            "title": "10 Day in Tokyo",
+            "date": "10/10/2023",
             "category": "travel",
             "content": "Lorem ipsum...",
             "author": "John Doe",
-            "views": 550
+            "views": 500,
+            "popular": true
         },
         {
-            "id": 10,
-            "blogTitle": "",
+            "id": 5,
+            "title": "Thing you need to know about olympics",
+            "date": "7/4/2023",
+            "category": "sport",
+            "content": "Lorem ipsum...",
+            "author": "John Doe",
+            "views": 400,
+            "popular": true
+        },
+        {
+            "id": 6,
+            "title": "Hollywood guide 101",
+            "date": "25/12/2023",
+            "category": "guide",
+            "content": "Lorem ipsum...",
+            "author": "John Doe",
+            "views": 350,
+            "popular": true
+        },
+        {
+            "id": 7,
+            "date": "30/1/2023",
+            "title": "Tokyo guide 101",
+            "category": "guide",
+            "content": "Lorem ipsum...",
+            "author": "John Doe",
+            "views": 300,
+            "popular": true
+        },
+        {
+            "id": 8,
+            "title": "London attraction you need to go",
+            "date": "13/4/2022",
+            "category": "travel",
+            "content": "Lorem ipsum...",
+            "author": "John Doe",
+            "views": 250,
+            "popular": true
+        },
+        {
+            "id": 9,
+            "title": "Tip to safe money when travel",
+            "date": "10/4/2022",
             "category":"guide",
             "content": "Lorem ipsum...",
             "author": "John Doe",
-            "views": 850
+            "views": 150,
+            "popular": true
         }
     ]
 }
