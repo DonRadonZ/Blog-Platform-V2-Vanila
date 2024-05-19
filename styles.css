@@ -1010,6 +1010,10 @@ main{
 }
 }
 
+#all-blog-content div.hide{
+    display: none;
+}
+
 /* Responsive design */
 @media screen and (min-width: 768px) {
     .navbar .container{
