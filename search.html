@@ -61,13 +61,15 @@
             </div>
             <div class="title">
                 <div class="search" >
-                <input type="text" id="blog-search" class="search-term" placeholder="Blog name...">
+                <input type="text" id="blog-search" class="search-term" placeholder="Blog name..." >
                 </div>
-                <select class="custom-select" id="search">
-                    <option selected>Select your category...</option>
-                    <option>Sport</option>
-                    <option>Travel</option>
-                    <option>Guide</option>
+                <select name="title" class="custom-select" id="title"
+                 onchange="getSelectValue();"
+                 >
+                    <option value="">Select your category...</option>
+                    <option value="sport">Sport</option>
+                    <option value="travel">Travel</option>
+                    <option value="guide">Guide</option>
                 </select>
             </div>
             <div class="all-blog-content" id="all-blog-content">
