@@ -49,6 +49,10 @@ filter.addEventListener("input",(e) => {
     })
 })
 
+select.addEventListener("select",(e) => {
+    const select = e.target.value.toUpperCase()
+})
+
 const allBlogContainer = document.getElementById('all-blog-content');
 
 async function fetchBlog(){

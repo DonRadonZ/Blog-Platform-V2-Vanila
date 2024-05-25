@@ -9,9 +9,3 @@ function getSelectValue() {
     console.log(selectedValue);
 }
 
-function searchblog(){
-    
-
-    fetch('./data/blog.json')
-    .then(res => res.json())
-}
